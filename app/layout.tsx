@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ja">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                {children}
+                <script src="//assets.v2.sprocket.bz/js/sprocket-jssdk.js#config=//assets.sprocket.bz/config/707b6671bf50418398c3a77aa9913c5f.json" charSet="UTF-8"></script>
+            </body>
         </html>
     );
 }
